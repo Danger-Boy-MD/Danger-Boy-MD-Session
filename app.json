@@ -1,0 +1,22 @@
+{
+    "name": "Danger Boy session",
+    "description": "A session generator platform for all WA bot, Created by Danger Boy jux to simplify your digital lives",
+    "logo": "https://files.catbox.moe/e72obf.jpeg",
+    "repository": "https://github.com/kingmalvn/malvin.session",
+    "keywords": ["dangerboy.session"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "set session id conformation message",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
